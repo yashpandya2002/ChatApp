@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginForm"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/bluecolorfulbg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editboxbg"
+        android:drawableLeft="@drawable/user"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:id="@+id/login_email"
+        android:hint="Email"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editboxbg"
+        android:drawableLeft="@drawable/password"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:id="@+id/login_password"
+        android:hint="Password"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Forgot Password ?"
+        android:id="@+id/login_forgotpassword"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="LOGIN"
+        android:background="@drawable/editboxbg"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:id="@+id/login_btn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create new Acount ?"
+        android:id="@+id/login_signup"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
