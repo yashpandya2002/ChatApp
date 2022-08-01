@@ -19,7 +19,7 @@ GifImageView gifImageView;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(SplashActivity.this,SignUp.class);
+                Intent i=new Intent(SplashActivity.this,FragmentShowActivity.class);
                 startActivity(i);
                 finish();
             }

@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidNew">
         <activity
+            android:name=".FragmentShowActivity"
+            android:exported="false" />
+        <activity
             android:name=".DeleteTryDeleteMe"
             android:exported="false" />
         <activity
